@@ -25,6 +25,8 @@ body{
 #days{
     font-size: 8em;
     color: #c3195d;
+    min-width: 5em;
+    text-align: center;
 }
 
 #days-wrapper{
