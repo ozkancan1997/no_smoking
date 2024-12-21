@@ -27,6 +27,7 @@ body{
     color: #c3195d;
     min-width: 5em;
     text-align: center;
+    display: block;
 }
 
 #days-wrapper{
