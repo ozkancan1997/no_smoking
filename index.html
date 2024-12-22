@@ -11,8 +11,9 @@
 </head>
 <body>
     <p id="desc">Days Without Smoking:</p>
-    <div id="days-wrapper"><label id="days" for="">0</label><p id="overline">since&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;21. Dec 2024</p></div>
+    <div id="days-wrapper"><label id="days" for="">0</label><p id="overline">since&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span id="base-date"></span></p></div>
 </body>
-    <script src="app.js?v=20241222"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.30.1/moment.min.js"></script>
+    <script src="app.js?v=20241222b"></script>
     <script>noSmokeCounter.init()</script>
 </html>
